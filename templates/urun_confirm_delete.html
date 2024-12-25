@@ -1,0 +1,7 @@
+<h2>Ürün Sil</h2>
+<p>{{ urun.ad }} adlı ürünü silmek istediğinizden emin misiniz?</p>
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">Evet, Sil</button>
+</form>
+<a href="{% url 'urun_list' %}">Vazgeç</a>

@@ -1,0 +1,9 @@
+<h2>Ürün Listesi</h2>
+<a href="{% url 'urun_create' %}">Yeni Ürün Ekle</a>
+<ul>
+    {% for urun in urunler %}
+        <li>{{ urun.ad }} - {{ urun.fiyat }} TL
+            <a href="{% url 'urun_delete' urun.id %}">Sil</a>
+        </li>
+    {% endfor %}
+</ul>
