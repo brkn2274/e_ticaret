@@ -6,8 +6,8 @@ Bu proje, Ankara Üniversitesi Yapay Zeka ve Veri Mühendisliği YZM311 Veri Tab
 ---
 
 ## **Proje Bilgileri**
-- **Öğrenci Adı/Soyadı:** Barkın Yılmaz
-- **Öğrenci No:** 123456789
+- **Öğrenci Adı/Soyadı:** Çağan Barkın Üstüner
+- **Öğrenci No:** 22290508
 - **Ders Kodu:** YZM311 Veri Tabanı Yönetim Sistemleri
 
 ---
